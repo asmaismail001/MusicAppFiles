@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#908A8A">
+
+   <!-- Playlist slider -->
+   <androidx.viewpager2.widget.ViewPager2
+       android:id="@+id/slider"
+       android:background="@drawable/custome_edit"
+       android:layout_width="match_parent"
+       android:layout_height="250dp"/>
+
+   <com.google.android.material.tabs.TabLayout
+       android:id="@+id/slider_indicator"
+       android:layout_width="match_parent"
+       android:layout_height="11dp"
+       android:background="#807B7B" />
+
+   <!-- Songs RecyclerView -->
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerViewSongs"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1" />
+</LinearLayout>

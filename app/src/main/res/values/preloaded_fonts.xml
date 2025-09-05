@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/cuprum_semibold</item>
+        <item>@font/dangrek</item>
+        <item>@font/erica_one</item>
+        <item>@font/gudea</item>
+        <item>@font/gudea_bold</item>
+        <item>@font/mea_culpa</item>
+        <item>@font/mountains_of_christmas_bold</item>
+        <item>@font/qwigley</item>
+        <item>@font/seaweed_script</item>
+    </array>
+</resources>
